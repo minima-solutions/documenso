@@ -26,6 +26,9 @@ const config = {
       moduleResolution: 'bundler',
       include: ['server/**/*', '../../packages/**/*', '../../packages/lib/translations/**/*'],
       jsx: 'preserve',
+      outDir: 'build/server/hono/.ts-rollup',
+      declaration: false,
+      emitDeclarationOnly: false,
     }),
     resolve({
       rootDir: path.join(process.cwd(), '../..'),
