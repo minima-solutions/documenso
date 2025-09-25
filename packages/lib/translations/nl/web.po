@@ -9290,3 +9290,406 @@ msgstr "Jouw token is succesvol aangemaakt! Zorg ervoor dat je het kopieert, wan
 msgid "Your tokens will be shown here once you create them."
 msgstr "Jouw tokens worden hier weergegeven zodra je ze aanmaakt."
 
+#: added by fill-missing-po-keys
+msgid "<0>{organisationName}</0> has requested to create an account on your behalf."
+msgstr "<0>{organisationName}</0> heeft verzocht om namens jou een account aan te maken."
+
+#: added by fill-missing-po-keys
+msgid "<0>{organisationName}</0> has requested to link your current Documenso account to their organisation."
+msgstr "<0>{organisationName}</0> heeft verzocht je huidige Documenso-account aan hun organisatie te koppelen."
+
+#: added by fill-missing-po-keys
+msgid "<0>Account management:</0> Modify your account settings, permissions, and preferences"
+msgstr "<0>Accountbeheer:</0> Wijzig je accountinstellingen, machtigingen en voorkeuren"
+
+#: added by fill-missing-po-keys
+msgid "<0>Data access:</0> Access all data associated with your account"
+msgstr "<0>Gegevenstoegang:</0> Toegang tot alle gegevens die aan je account zijn gekoppeld"
+
+#: added by fill-missing-po-keys
+msgid "<0>Full account access:</0> View all your profile information, settings, and activity"
+msgstr "<0>Volledige accounttoegang:</0> Bekijk al je profielinformatie, instellingen en activiteit"
+
+#: added by fill-missing-po-keys
+msgid "2FA Reset"
+msgstr "2FA-reset"
+
+#: added by fill-missing-po-keys
+msgid "400 Error"
+msgstr "400-fout"
+
+#: added by fill-missing-po-keys
+msgid "404 Not Found"
+msgstr "404 Niet gevonden"
+
+#: added by fill-missing-po-keys
+msgid "A request has been made to create an account for you"
+msgstr "Er is een verzoek ingediend om een account voor je aan te maken"
+
+#: added by fill-missing-po-keys
+msgid "A request has been made to link your Documenso account"
+msgstr "Er is een verzoek ingediend om je Documenso-account te koppelen"
+
+#: added by fill-missing-po-keys
+msgid "Accept & Link Account"
+msgstr "Accepteren en account koppelen"
+
+#: added by fill-missing-po-keys
+msgid "Account creation request"
+msgstr "Verzoek tot het aanmaken van een account"
+
+#: added by fill-missing-po-keys
+msgid "Account Creation Request"
+msgstr "Verzoek tot het aanmaken van een account"
+
+#: added by fill-missing-po-keys
+msgid "Account Linking Request"
+msgstr "Verzoek tot het koppelen van een account"
+
+#: added by fill-missing-po-keys
+msgid "Account unlinked"
+msgstr "Account ontkoppeld"
+
+#: added by fill-missing-po-keys
+msgid "Add 2 or more signers to enable signing order."
+msgstr "Voeg 2 of meer ondertekenaars toe om de ondertekenvolgorde in te schakelen."
+
+#: added by fill-missing-po-keys
+msgid "Add this URL to your provider's allowed redirect URIs"
+msgstr "Voeg deze URL toe aan de toegestane redirect-URI's van je provider"
+
+#: added by fill-missing-po-keys
+msgid "Allowed Email Domains"
+msgstr "Toegestane e-maildomeinen"
+
+#: added by fill-missing-po-keys
+msgid "An error occurred while auto-saving the document settings."
+msgstr "Er is een fout opgetreden tijdens het automatisch opslaan van de documentinstellingen."
+
+#: added by fill-missing-po-keys
+msgid "An error occurred while auto-saving the fields."
+msgstr "Er is een fout opgetreden tijdens het automatisch opslaan van de velden."
+
+#: added by fill-missing-po-keys
+msgid "An error occurred while auto-saving the subject form."
+msgstr "Er is een fout opgetreden tijdens het automatisch opslaan van het onderwerpformulier."
+
+#: added by fill-missing-po-keys
+msgid "An error occurred while auto-saving the template fields."
+msgstr "Er is een fout opgetreden tijdens het automatisch opslaan van de sjabloonvelden."
+
+#: added by fill-missing-po-keys
+msgid "An error occurred while auto-saving the template placeholders."
+msgstr "Er is een fout opgetreden tijdens het automatisch opslaan van de sjabloonplaatsaanduidingen."
+
+#: added by fill-missing-po-keys
+msgid "An error occurred while auto-saving the template settings."
+msgstr "Er is een fout opgetreden tijdens het automatisch opslaan van de sjablooninstellingen."
+
+#: added by fill-missing-po-keys
+msgid "An error occurred while resetting two factor authentication for the user."
+msgstr "Er is een fout opgetreden bij het resetten van de tweestapsverificatie voor de gebruiker."
+
+#: added by fill-missing-po-keys
+msgid "An error occurred. Please try again later."
+msgstr "Er is een fout opgetreden. Probeer het later opnieuw."
+
+#: added by fill-missing-po-keys
+msgid "An organisation wants to create an account for you. Please review the details below."
+msgstr "Een organisatie wil een account voor je aanmaken. Controleer hieronder de details."
+
+#: added by fill-missing-po-keys
+msgid "An organisation wants to link your account. Please review the details below."
+msgstr "Een organisatie wil je account koppelen. Controleer hieronder de details."
+
+#: added by fill-missing-po-keys
+msgid "Authentication Portal Not Found"
+msgstr "Authenticatieportaal niet gevonden"
+
+#: added by fill-missing-po-keys
+msgid "By accepting this request, you grant {0} the following permissions:"
+msgstr "Door dit verzoek te accepteren, geef je {0} de volgende rechten:"
+
+#: added by fill-missing-po-keys
+msgid "Client ID"
+msgstr "Client ID"
+
+#: added by fill-missing-po-keys
+msgid "Client ID is required"
+msgstr "Client-ID is vereist"
+
+#: added by fill-missing-po-keys
+msgid "Client Secret"
+msgstr "Clientgeheim"
+
+#: added by fill-missing-po-keys
+msgid "Client secret is required"
+msgstr "Clientgeheim is vereist"
+
+#: added by fill-missing-po-keys
+msgid "Complete the fields for the following signers."
+msgstr "Vul de velden in voor de volgende ondertekenaars."
+
+#: added by fill-missing-po-keys
+msgid "Contact us"
+msgstr "Neem contact met ons op"
+
+#: added by fill-missing-po-keys
+msgid "Create a support ticket"
+msgstr "Maak een supportticket aan"
+
+#: added by fill-missing-po-keys
+msgid "Default Organisation Role for New Users"
+msgstr "Standaard organisatierol voor nieuwe gebruikers"
+
+#: added by fill-missing-po-keys
+msgid "Discord"
+msgstr "Discord"
+
+#: added by fill-missing-po-keys
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: added by fill-missing-po-keys
+msgid "Enable SSO portal"
+msgstr "SSO-portaal inschakelen"
+
+#: added by fill-missing-po-keys
+msgid "Failed to create support ticket"
+msgstr "Aanmaken van supportticket mislukt"
+
+#: added by fill-missing-po-keys
+msgid "Failed to unlink account"
+msgstr "Ontkoppelen van account mislukt"
+
+#: added by fill-missing-po-keys
+msgid "I agree to link my account with this organization"
+msgstr "Ik ga akkoord met het koppelen van mijn account aan deze organisatie"
+
+#: added by fill-missing-po-keys
+msgid "I understand that I am providing my credentials to a 3rd party service configured by this organisation"
+msgstr "Ik begrijp dat ik mijn inloggegevens verstrek aan een externe service die door deze organisatie is geconfigureerd"
+
+#: added by fill-missing-po-keys
+msgid "Important: What This Means"
+msgstr "Belangrijk: wat dit betekent"
+
+#: added by fill-missing-po-keys
+msgid "Invalid domains"
+msgstr "Ongeldige domeinen"
+
+#: added by fill-missing-po-keys
+msgid "Invalid Token"
+msgstr "Ongeldig token"
+
+#: added by fill-missing-po-keys
+msgid "Issuer URL"
+msgstr "Issuer-URL"
+
+#: added by fill-missing-po-keys
+msgid "Join our community on <0>Discord</0> for community support and discussion."
+msgstr "Word lid van onze community op <0>Discord</0> voor ondersteuning en discussie."
+
+#: added by fill-missing-po-keys
+msgid "Link expires in 30 minutes."
+msgstr "Link verloopt over 30 minuten."
+
+#: added by fill-missing-po-keys
+msgid "Link your Documenso account"
+msgstr "Koppel je Documenso-account"
+
+#: added by fill-missing-po-keys
+msgid "Linked Accounts"
+msgstr "Gekoppelde accounts"
+
+#: added by fill-missing-po-keys
+msgid "Linked At"
+msgstr "Gekoppeld op"
+
+#: added by fill-missing-po-keys
+msgid "Loading suggestions..."
+msgstr "Suggesties laden..."
+
+#: added by fill-missing-po-keys
+msgid "Manage a custom SSO login portal for your organisation."
+msgstr "Beheer een aangepast SSO-inlogportaal voor je organisatie."
+
+#: added by fill-missing-po-keys
+msgid "Manage linked accounts"
+msgstr "Beheer gekoppelde accounts"
+
+#: added by fill-missing-po-keys
+msgid "No suggestions found"
+msgstr "Geen suggesties gevonden"
+
+#: added by fill-missing-po-keys
+msgid "OR"
+msgstr "OF"
+
+#: added by fill-missing-po-keys
+msgid "Organisation authentication portal URL"
+msgstr "URL van het authenticatieportaal van de organisatie"
+
+#: added by fill-missing-po-keys
+msgid "Organisation SSO Portal"
+msgstr "SSO-portaal van de organisatie"
+
+#: added by fill-missing-po-keys
+msgid "Please mark as viewed to complete."
+msgstr "Markeer als bekeken om te voltooien."
+
+#: added by fill-missing-po-keys
+msgid "Please note that anyone who signs in through your portal will be added to your organisation as a member."
+msgstr "Let op: iedereen die via je portaal inlogt, wordt als lid aan je organisatie toegevoegd."
+
+#: added by fill-missing-po-keys
+msgid "Provider"
+msgstr "Provider"
+
+#: added by fill-missing-po-keys
+msgid "Provider has been updated successfully"
+msgstr "Provider is succesvol bijgewerkt"
+
+#: added by fill-missing-po-keys
+msgid "Read our documentation to get started with Documenso."
+msgstr "Lees onze documentatie om aan de slag te gaan met Documenso."
+
+#: added by fill-missing-po-keys
+msgid "Redirect URI"
+msgstr "Redirect-URI"
+
+#: added by fill-missing-po-keys
+msgid "Requesting Organisation"
+msgstr "Aanvragende organisatie"
+
+#: added by fill-missing-po-keys
+msgid "Required scopes"
+msgstr "Vereiste scopes"
+
+#: added by fill-missing-po-keys
+msgid "Reset 2FA"
+msgstr "2FA resetten"
+
+#: added by fill-missing-po-keys
+msgid "Reset the users two factor authentication. This action is irreversible and will disable two factor authentication for the user."
+msgstr "Reset de tweestapsverificatie van de gebruiker. Deze actie is onomkeerbaar en schakelt tweestapsverificatie voor de gebruiker uit."
+
+#: added by fill-missing-po-keys
+msgid "Reset Two Factor Authentication"
+msgstr "Tweestapsverificatie resetten"
+
+#: added by fill-missing-po-keys
+msgid "Return to Documenso sign in page here"
+msgstr "Ga hier terug naar de Documenso-inlogpagina"
+
+#: added by fill-missing-po-keys
+msgid "Review request"
+msgstr "Verzoek bekijken"
+
+#: added by fill-missing-po-keys
+msgid "Select default role"
+msgstr "Selecteer standaardrol"
+
+#: added by fill-missing-po-keys
+msgid "Space-separated list of domains. Leave empty to allow all domains."
+msgstr "Door spaties gescheiden lijst met domeinen. Laat leeg om alle domeinen toe te staan."
+
+#: added by fill-missing-po-keys
+msgid "SSO"
+msgstr "SSO"
+
+#: added by fill-missing-po-keys
+msgid "Submit"
+msgstr "Verzenden"
+
+#: added by fill-missing-po-keys
+msgid "Support"
+msgstr "Support"
+
+#: added by fill-missing-po-keys
+msgid "Support ticket created"
+msgstr "Supportticket aangemaakt"
+
+#: added by fill-missing-po-keys
+msgid "The OpenID discovery endpoint URL for your provider"
+msgstr "De OpenID-discovery-endpoint-URL voor je provider"
+
+#: added by fill-missing-po-keys
+msgid "The organisation authentication portal does not exist, or is not configured"
+msgstr "Het authenticatieportaal van de organisatie bestaat niet of is niet geconfigureerd"
+
+#: added by fill-missing-po-keys
+msgid "The token is invalid or has expired."
+msgstr "Het token is ongeldig of verlopen."
+
+#: added by fill-missing-po-keys
+msgid "The user's two factor authentication has been reset successfully."
+msgstr "De tweestapsverificatie van de gebruiker is succesvol gereset."
+
+#: added by fill-missing-po-keys
+msgid "This action is irreversible. Please ensure you have informed the user before proceeding."
+msgstr "Deze actie is onomkeerbaar. Zorg dat je de gebruiker hebt geïnformeerd voordat je doorgaat."
+
+#: added by fill-missing-po-keys
+msgid "This is the required scopes you must set in your provider's settings"
+msgstr "Dit zijn de vereiste scopes die je in de instellingen van je provider moet instellen"
+
+#: added by fill-missing-po-keys
+msgid "This is the URL which users will use to sign in to your organisation."
+msgstr "Dit is de URL die gebruikers gebruiken om in te loggen bij je organisatie."
+
+#: added by fill-missing-po-keys
+msgid "This organisation will have administrative control over your account. You can revoke this access later, but they will retain access to any data they've already collected."
+msgstr "Deze organisatie krijgt administratieve controle over je account. Je kunt deze toegang later intrekken, maar reeds verzamelde gegevens blijven voor hen toegankelijk."
+
+#: added by fill-missing-po-keys
+msgid "Unlink"
+msgstr "Ontkoppelen"
+
+#: added by fill-missing-po-keys
+msgid "View and manage all login methods linked to your account."
+msgstr "Bekijk en beheer alle aan je account gekoppelde aanmeldmethoden."
+
+#: added by fill-missing-po-keys
+msgid "We couldn't update the provider. Please try again."
+msgstr "We konden de provider niet bijwerken. Probeer het opnieuw."
+
+#: added by fill-missing-po-keys
+msgid "We'll get back to you as soon as possible via email."
+msgstr "We nemen zo snel mogelijk via e-mail contact met je op."
+
+#: added by fill-missing-po-keys
+msgid "Welcome to {organisationName}"
+msgstr "Welkom bij {organisationName}"
+
+#: added by fill-missing-po-keys
+msgid "Well-known URL is required"
+msgstr "Well-known-URL is vereist"
+
+#: added by fill-missing-po-keys
+msgid "Whether to enable the SSO portal for your organisation"
+msgstr "Of het SSO-portaal voor je organisatie moet worden ingeschakeld"
+
+#: added by fill-missing-po-keys
+msgid "You are about to remove the <0>{provider}</0> login method from your account."
+msgstr "Je staat op het punt de aanmeldmethode <0>{provider}</0> van je account te verwijderen."
+
+#: added by fill-missing-po-keys
+msgid "You are not authorized to reset two factor authentcation for this user."
+msgstr "Je bent niet gemachtigd om de tweestapsverificatie voor deze gebruiker te resetten."
+
+#: added by fill-missing-po-keys
+msgid "Your Account"
+msgstr "Je account"
+
+#: added by fill-missing-po-keys
+msgid "Your current plan includes the following support channels:"
+msgstr "Je huidige abonnement omvat de volgende ondersteuningskanalen:"
+
+#: added by fill-missing-po-keys
+msgid "Your support request has been submitted. We'll get back to you soon!"
+msgstr "Je ondersteuningsverzoek is ingediend. We nemen snel contact met je op!"
+
+#: added by fill-missing-po-keys
+msgid "your-domain.com another-domain.com"
+msgstr "jouw-domain.com andere-domain.com"
