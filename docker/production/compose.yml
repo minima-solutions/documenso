@@ -18,7 +18,7 @@ services:
       - database:/var/lib/postgresql/data
 
   documenso:
-    image: ghcr.io/minima-solutions/documenso:4a0e743f4005c9a373f2cc3fb39ebc98417c7ff6
+    image: ghcr.io/minima-solutions/documenso:72bc764c4038819559f8f3c26a61d55c40feb5ef
     depends_on:
       database:
         condition: service_healthy
