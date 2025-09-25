@@ -1,0 +1,5 @@
+version: '1'
+rules:
+  - base: main
+    upstream: documenso/documenso
+    mergeMethod: none # <--- IMPORTANT (prevents auto-merge)
