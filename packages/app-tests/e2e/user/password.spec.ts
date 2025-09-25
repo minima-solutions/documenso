@@ -15,7 +15,7 @@ test('[USER] can reset password via forgot password', async ({ page }: { page: P
     password: oldPassword,
   });
 
-  await page.goto('http://localhost:3000/signin');
+  await page.goto('http://localhost:7501/signin');
   await page.getByRole('link', { name: 'Forgot your password?' }).click();
 
   await page.getByRole('textbox', { name: 'Email' }).click();
@@ -35,7 +35,7 @@ test('[USER] can reset password via forgot password', async ({ page }: { page: P
     },
   });
 
-  await page.goto(`http://localhost:3000/reset-password/${foundToken.token}`);
+  await page.goto(`http://localhost:7501/reset-password/${foundToken.token}`);
 
   // Assert that password cannot be same as old password.
   await page.getByLabel('Password', { exact: true }).fill(oldPassword);

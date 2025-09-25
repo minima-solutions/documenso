@@ -85,7 +85,7 @@ export const run = async ({
     meta: document.documentMeta,
   });
 
-  const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:3000';
+  const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:7501';
 
   const i18n = await getI18nInstance(emailLanguage);
 

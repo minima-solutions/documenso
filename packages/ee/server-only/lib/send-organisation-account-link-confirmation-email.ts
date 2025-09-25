@@ -86,7 +86,7 @@ export const sendOrganisationAccountLinkConfirmationEmail = async ({
     meta: null,
   });
 
-  const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:3000';
+  const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:7501';
   const confirmationLink = `${assetBaseUrl}/organisation/sso/confirmation/${createdToken.token}`;
 
   const confirmationTemplate = createElement(OrganisationAccountLinkConfirmationTemplate, {

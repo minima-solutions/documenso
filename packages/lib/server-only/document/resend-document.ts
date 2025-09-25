@@ -149,7 +149,7 @@ export const resendDocument = async ({
         'document.name': document.title,
       };
 
-      const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:3000';
+      const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:7501';
       const signDocumentLink = `${NEXT_PUBLIC_WEBAPP_URL()}/sign/${recipient.token}`;
 
       const template = createElement(DocumentInviteEmailTemplate, {

@@ -65,7 +65,7 @@ docker build -f Dockerfile.pnpm -t my-app .
 docker build -f Dockerfile.bun -t my-app .
 
 # Run the container
-docker run -p 3000:3000 my-app
+docker run -p 7501:7501 my-app
 ```
 
 The containerized application can be deployed to any platform that supports Docker, including:

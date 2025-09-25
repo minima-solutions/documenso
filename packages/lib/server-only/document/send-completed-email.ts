@@ -72,7 +72,7 @@ export const sendCompletedEmail = async ({ documentId, requestMetadata }: SendDo
 
   const completedDocument = await getFileServerSide(document.documentData);
 
-  const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:3000';
+  const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:7501';
 
   let documentOwnerDownloadLink = `${NEXT_PUBLIC_WEBAPP_URL()}${formatDocumentsPath(
     document.team?.url,

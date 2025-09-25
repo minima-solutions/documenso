@@ -42,16 +42,17 @@ NEXT_PRIVATE_SIGNING_PASSPHRASE="<your-certificate-password>"
 4. Set up your signing certificate. You have three options:
 
    **Option A: Generate Certificate Inside Container (Recommended)**
-   
+
    Start your containers first, then generate a self-signed certificate:
+
    ```bash
    # Start containers
    docker-compose up -d
-   
+
    # Set certificate password securely (won't appear in command history)
    read -s -p "Enter certificate password: " CERT_PASS
    echo
-   
+
    # Generate certificate inside container using environment variable
    docker exec -e CERT_PASS="$CERT_PASS" -it documenso-production-documenso-1 bash -c "
      openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
@@ -63,19 +64,19 @@ NEXT_PRIVATE_SIGNING_PASSPHRASE="<your-certificate-password>"
        -passout env:CERT_PASS && \
      rm /tmp/private.key /tmp/certificate.crt
    "
-   
+
    # Restart container
    docker-compose restart documenso
    ```
-   
+
    **Option B: Use Existing Certificate**
-   
+
    If you have an existing `.p12` certificate, update the volume binding in `compose.yml`:
+
    ```yaml
    volumes:
      - /path/to/your/cert.p12:/opt/documenso/cert.p12:ro
    ```
-   
 
 5. Run the following command to start the containers:
 
@@ -85,7 +86,7 @@ docker-compose --env-file ./.env up -d
 
 This will start the PostgreSQL database and the Documenso application containers.
 
-6. Access the Documenso application by visiting `http://localhost:3000` in your web browser.
+6. Access the Documenso application by visiting `http://localhost:7501` in your web browser.
 
 ## Option 2: Standalone Docker Container
 
@@ -107,12 +108,12 @@ docker pull ghcr.io/documenso/documenso
 
 ```
 docker run -d \
-  -p 3000:3000 \
+  -p 7501:7501 \
   -e NEXTAUTH_SECRET="<your-nextauth-secret>" \
   -e NEXT_PRIVATE_ENCRYPTION_KEY="<your-next-private-encryption-key>" \
   -e NEXT_PRIVATE_ENCRYPTION_SECONDARY_KEY="<your-next-private-encryption-secondary-key>" \
   -e NEXT_PUBLIC_WEBAPP_URL="<your-next-public-webapp-url>" \
-  -e NEXT_PRIVATE_INTERNAL_WEBAPP_URL="http://localhost:3000" \
+  -e NEXT_PRIVATE_INTERNAL_WEBAPP_URL="http://localhost:7501" \
   -e NEXT_PRIVATE_DATABASE_URL="<your-next-private-database-url>" \
   -e NEXT_PRIVATE_DIRECT_DATABASE_URL="<your-next-private-database-url>" \
   -e NEXT_PRIVATE_SMTP_TRANSPORT="<your-next-private-smtp-transport>" \
@@ -157,7 +158,6 @@ If you encounter errors related to certificate access, here are common solutions
    docker exec -it <container_name> ls -la /opt/documenso/cert.p12
    ```
 
-
 ### Container Logs
 
 Check application logs for detailed error information:
@@ -176,10 +176,10 @@ Check the status of your Documenso instance:
 
 ```bash
 # Basic health check (database + certificate)
-curl http://localhost:3000/api/health
+curl http://localhost:7501/api/health
 
 # Detailed certificate status
-curl http://localhost:3000/api/certificate-status
+curl http://localhost:7501/api/certificate-status
 ```
 
 The health endpoint will show:
@@ -204,7 +204,7 @@ Here's a markdown table documenting all the provided environment variables:
 
 | Variable                                     | Description                                                                                         |
 | -------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| `PORT`                                       | The port to run the Documenso application on, defaults to `3000`.                                   |
+| `PORT`                                       | The port to run the Documenso application on, defaults to `7501`.                                   |
 | `NEXTAUTH_SECRET`                            | The secret key used by NextAuth.js for encryption and signing.                                      |
 | `NEXT_PRIVATE_ENCRYPTION_KEY`                | The primary encryption key for symmetric encryption and decryption (at least 32 characters).        |
 | `NEXT_PRIVATE_ENCRYPTION_SECONDARY_KEY`      | The secondary encryption key for symmetric encryption and decryption (at least 32 characters).      |

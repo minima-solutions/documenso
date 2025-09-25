@@ -60,7 +60,7 @@ export const sendDeleteEmail = async ({ documentId, reason }: SendDeleteEmailOpt
 
   const { email, name } = document.user;
 
-  const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:3000';
+  const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:7501';
 
   const template = createElement(DocumentSuperDeleteEmailTemplate, {
     documentName: document.title,

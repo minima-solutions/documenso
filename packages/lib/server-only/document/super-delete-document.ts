@@ -73,7 +73,7 @@ export const superDeleteDocument = async ({ id, requestMetadata }: SuperDeleteDo
           return;
         }
 
-        const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:3000';
+        const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:7501';
         const template = createElement(DocumentCancelTemplate, {
           documentName: document.title,
           inviterName: user.name || undefined,

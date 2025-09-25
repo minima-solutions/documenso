@@ -18,7 +18,7 @@ For the digital signature of your documents you need a signing certificate in .p
    # Set certificate password securely (won't appear in command history)
    read -s -p "Enter certificate password: " CERT_PASS
    echo
-   
+
    # Create the p12 certificate using the environment variable
    openssl pkcs12 -export -out certificate.p12 -inkey private.key -in certificate.crt \
        -password env:CERT_PASS \
@@ -43,7 +43,7 @@ Want to create a production ready docker image? Follow these steps:
 - Publish the image to your docker registry of choice (or) If you prefer running the image from local, run the below command
 
 ```
-docker run -d --restart=unless-stopped -p 3000:3000 -v documenso:/app/data --name documenso documenso:latest
+docker run -d --restart=unless-stopped -p 7501:7501 -v documenso:/app/data --name documenso documenso:latest
 ```
 
 Command Breakdown:
