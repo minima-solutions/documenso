@@ -1,7 +1,7 @@
 import { Trans } from '@lingui/react/macro';
 import { File } from 'lucide-react';
 
-import ahmedImage from '@documenso/assets/images/Ahmed.png';
+import ahmedImage from '@documenso/assets/images/ahmed.png';
 import { NEXT_PUBLIC_WEBAPP_URL } from '@documenso/lib/constants/app';
 import { VerifiedIcon } from '@documenso/ui/icons/verified';
 import { cn } from '@documenso/ui/lib/utils';
