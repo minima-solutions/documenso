@@ -3061,7 +3061,7 @@ msgstr "Document zal permanent worden verwijderd"
 #: apps/remix/app/routes/_authenticated+/t.$teamUrl+/documents.$id._index.tsx
 #: apps/remix/app/routes/_authenticated+/admin+/_layout.tsx
 #: apps/remix/app/components/tables/admin-dashboard-users-table.tsx
-#: apps/remix/app/components/general/user-profile-timur.tsx
+#: apps/remix/app/components/general/user-profile-ahmed.tsx
 #: apps/remix/app/components/general/app-nav-mobile.tsx
 #: apps/remix/app/components/general/app-nav-desktop.tsx
 #: apps/remix/app/components/general/app-command-menu.tsx
@@ -3967,9 +3967,9 @@ msgstr "Hier kun je je algemene documentvoorkeuren instellen"
 msgid "Here's how it works:"
 msgstr "Zo werkt het:"
 
-#: apps/remix/app/components/general/user-profile-timur.tsx
-msgid "Hey I’m Timur"
-msgstr "Hallo, ik ben Timur"
+#: apps/remix/app/components/general/user-profile-ahmed.tsx
+msgid "Hey I’m Ahmed"
+msgstr "Hallo, ik ben Ahmed"
 
 #: packages/email/templates/bulk-send-complete.tsx
 msgid "Hi {userName},"
@@ -5227,7 +5227,7 @@ msgstr "Kies een nummer"
 msgid "Pick a password"
 msgstr "Kies een wachtwoord"
 
-#: apps/remix/app/components/general/user-profile-timur.tsx
+#: apps/remix/app/components/general/user-profile-ahmed.tsx
 msgid "Pick any of the following agreements below and start signing to get started"
 msgstr "Kies een van de onderstaande overeenkomsten en begin met ondertekenen om te beginnen"
 
@@ -6193,7 +6193,7 @@ msgstr "Toon sjablonen in je openbare profiel zodat je publiek deze snel kan ond
 #: apps/remix/app/components/tables/inbox-table.tsx
 #: apps/remix/app/components/tables/documents-table-action-dropdown.tsx
 #: apps/remix/app/components/tables/documents-table-action-button.tsx
-#: apps/remix/app/components/general/user-profile-timur.tsx
+#: apps/remix/app/components/general/user-profile-ahmed.tsx
 #: apps/remix/app/components/general/user-profile-skeleton.tsx
 #: apps/remix/app/components/general/document-signing/document-signing-signature-field.tsx
 #: apps/remix/app/components/general/document-signing/document-signing-name-field.tsx

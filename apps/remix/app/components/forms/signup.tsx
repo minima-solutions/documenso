@@ -31,7 +31,7 @@ import { PasswordInput } from '@documenso/ui/primitives/password-input';
 import { SignaturePadDialog } from '@documenso/ui/primitives/signature-pad/signature-pad-dialog';
 import { useToast } from '@documenso/ui/primitives/use-toast';
 
-import { UserProfileTimur } from '~/components/general/user-profile-timur';
+import { UserProfileAhmed } from '~/components/general/user-profile-ahmed';
 
 export const ZSignUpFormSchema = z
   .object({
@@ -193,7 +193,7 @@ export const SignUpForm = ({
           </div>
 
           <div className="w-full max-w-md">
-            <UserProfileTimur
+            <UserProfileAhmed
               rows={2}
               className="bg-background border-border rounded-2xl border shadow-md"
             />

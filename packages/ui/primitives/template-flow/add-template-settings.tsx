@@ -123,7 +123,7 @@ export const AddTemplateSettingsFormPartial = ({
         distributionMethod:
           template.templateMeta?.distributionMethod || DocumentDistributionMethod.EMAIL,
         redirectUrl: template.templateMeta?.redirectUrl ?? '',
-        language: template.templateMeta?.language ?? 'en',
+        language: template.templateMeta?.language ?? 'nl',
         emailId: template.templateMeta?.emailId ?? null,
         emailReplyTo: template.templateMeta?.emailReplyTo ?? undefined,
         emailSettings: ZDocumentEmailSettingsSchema.parse(template?.templateMeta?.emailSettings),
@@ -216,7 +216,12 @@ export const AddTemplateSettingsFormPartial = ({
                   </FormLabel>
 
                   <FormControl>
-                    <Input className="bg-background" {...field} maxLength={255} onBlur={handleAutoSave} />
+                    <Input
+                      className="bg-background"
+                      {...field}
+                      maxLength={255}
+                      onBlur={handleAutoSave}
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -624,7 +629,12 @@ export const AddTemplateSettingsFormPartial = ({
                           </FormLabel>
 
                           <FormControl>
-                            <Input className="bg-background" {...field} maxLength={255} onBlur={handleAutoSave} />
+                            <Input
+                              className="bg-background"
+                              {...field}
+                              maxLength={255}
+                              onBlur={handleAutoSave}
+                            />
                           </FormControl>
 
                           <FormMessage />
@@ -715,7 +725,12 @@ export const AddTemplateSettingsFormPartial = ({
                           </FormLabel>
 
                           <FormControl>
-                            <Input className="bg-background" {...field} maxLength={255} onBlur={handleAutoSave} />
+                            <Input
+                              className="bg-background"
+                              {...field}
+                              maxLength={255}
+                              onBlur={handleAutoSave}
+                            />
                           </FormControl>
 
                           <FormMessage />

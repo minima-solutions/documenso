@@ -42,7 +42,7 @@ export const getAuditLogsPdf = async ({ documentId, language }: GetAuditLogsPdfO
 
   const page = await browserContext.newPage();
 
-  const lang = isValidLanguageCode(language) ? language : 'en';
+  const lang = isValidLanguageCode(language) ? language : 'nl';
 
   await page.context().addCookies([
     {

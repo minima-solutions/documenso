@@ -2,7 +2,7 @@ import { z } from 'zod';
 
 export const SUPPORTED_LANGUAGE_CODES = ['de', 'en', 'fr', 'es', 'it', 'pl', 'nl'] as const;
 
-export const ZSupportedLanguageCodeSchema = z.enum(SUPPORTED_LANGUAGE_CODES).catch('en');
+export const ZSupportedLanguageCodeSchema = z.enum(SUPPORTED_LANGUAGE_CODES).catch('nl');
 
 export type SupportedLanguageCodes = (typeof SUPPORTED_LANGUAGE_CODES)[number];
 
@@ -20,8 +20,8 @@ export type I18nLocaleData = {
 
 export const APP_I18N_OPTIONS = {
   supportedLangs: SUPPORTED_LANGUAGE_CODES,
-  sourceLang: 'en',
-  defaultLocale: 'en-US',
+  sourceLang: 'nl',
+  defaultLocale: 'nl-BE',
 } as const;
 
 type SupportedLanguage = {
@@ -30,6 +30,10 @@ type SupportedLanguage = {
 };
 
 export const SUPPORTED_LANGUAGES: Record<string, SupportedLanguage> = {
+  nl: {
+    short: 'nl',
+    full: 'Dutch',
+  },
   de: {
     full: 'German',
     short: 'de',
@@ -53,10 +57,6 @@ export const SUPPORTED_LANGUAGES: Record<string, SupportedLanguage> = {
   pl: {
     short: 'pl',
     full: 'Polish',
-  },
-  nl: {
-    short: 'nl',
-    full: 'Dutch',
   },
 } satisfies Record<SupportedLanguageCodes, SupportedLanguage>;
 

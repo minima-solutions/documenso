@@ -2890,7 +2890,7 @@ msgstr "Dokumenti do të Fshihet Përgjithmonë"
 #: apps/remix/app/routes/_authenticated+/t.$teamUrl+/documents.$id._index.tsx
 #: apps/remix/app/routes/_authenticated+/admin+/_layout.tsx
 #: apps/remix/app/components/tables/admin-dashboard-users-table.tsx
-#: apps/remix/app/components/general/user-profile-timur.tsx
+#: apps/remix/app/components/general/user-profile-ahmed.tsx
 #: apps/remix/app/components/general/app-nav-mobile.tsx
 #: apps/remix/app/components/general/app-nav-desktop.tsx
 #: apps/remix/app/components/general/app-command-menu.tsx
@@ -3694,9 +3694,9 @@ msgstr "Këtu mund të vendosni preferencat tuaja të përgjithshme"
 msgid "Here's how it works:"
 msgstr "Ja si funksionon:"
 
-#: apps/remix/app/components/general/user-profile-timur.tsx
-msgid "Hey I’m Timur"
-msgstr "Përshëndetje, jam Timuri"
+#: apps/remix/app/components/general/user-profile-ahmed.tsx
+msgid "Hey I’m Ahmed"
+msgstr "Përshëndetje, jam Ahmedi"
 
 #: packages/email/templates/bulk-send-complete.tsx
 msgid "Hi {userName},"
@@ -4906,7 +4906,7 @@ msgstr "Zgjidhni një numër"
 msgid "Pick a password"
 msgstr "Zgjidhni një fjalëkalim"
 
-#: apps/remix/app/components/general/user-profile-timur.tsx
+#: apps/remix/app/components/general/user-profile-ahmed.tsx
 msgid "Pick any of the following agreements below and start signing to get started"
 msgstr "Zgjidhni ndonjë nga marrëveshjet e mëposhtme dhe filloni të nënshkruani për të nisur"
 
@@ -5831,7 +5831,7 @@ msgstr "Trego shabllonët në profilin tënd publik për audiencën tënde që t
 #: apps/remix/app/components/tables/inbox-table.tsx
 #: apps/remix/app/components/tables/documents-table-action-dropdown.tsx
 #: apps/remix/app/components/tables/documents-table-action-button.tsx
-#: apps/remix/app/components/general/user-profile-timur.tsx
+#: apps/remix/app/components/general/user-profile-ahmed.tsx
 #: apps/remix/app/components/general/user-profile-skeleton.tsx
 #: apps/remix/app/components/general/document-signing/document-signing-signature-field.tsx
 #: apps/remix/app/components/general/document-signing/document-signing-name-field.tsx

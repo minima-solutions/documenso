@@ -42,7 +42,7 @@ export const ZAddSettingsFormSchema = z.object({
     language: z
       .union([z.string(), z.enum(SUPPORTED_LANGUAGE_CODES)])
       .optional()
-      .default('en'),
+      .default('nl'),
     signatureTypes: z.array(z.nativeEnum(DocumentSignatureType)).min(1, {
       message: msg`At least one signature type must be enabled`.id,
     }),
