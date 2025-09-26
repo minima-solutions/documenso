@@ -28,8 +28,8 @@ export type OrganisationInviteEmailProps = {
 
 export const OrganisationInviteEmailTemplate = ({
   assetBaseUrl = 'http://localhost:3002',
-  baseUrl = 'https://documenso.com',
-  senderName = 'John Doe',
+  baseUrl = 'https://sign.minimaworks.be',
+  senderName = 'Ahmed Mert',
   organisationName = 'Organisation Name',
   token = '',
 }: OrganisationInviteEmailProps) => {

@@ -11,8 +11,8 @@ import { TemplateResetPassword } from '../template-components/template-reset-pas
 export type ResetPasswordTemplateProps = Partial<TemplateResetPasswordProps>;
 
 export const ResetPasswordTemplate = ({
-  userName = 'Lucas Smith',
-  userEmail = 'lucas@documenso.com',
+  userName = 'Ahmed Mert',
+  userEmail = 'ahmed@minimaworks.be',
   assetBaseUrl = 'http://localhost:3002',
 }: ResetPasswordTemplateProps) => {
   const { _ } = useLingui();
@@ -72,7 +72,10 @@ export const ResetPasswordTemplate = ({
                 <Trans>
                   Didn't request a password change? We are here to help you secure your account,
                   just{' '}
-                  <Link className="text-documenso-700 font-normal" href="mailto:hi@documenso.com">
+                  <Link
+                    className="text-documenso-700 font-normal"
+                    href="mailto:info@minimaworks.be"
+                  >
                     contact us.
                   </Link>
                 </Trans>

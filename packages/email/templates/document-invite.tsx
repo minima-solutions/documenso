@@ -23,10 +23,10 @@ export type DocumentInviteEmailTemplateProps = Partial<TemplateDocumentInvitePro
 };
 
 export const DocumentInviteEmailTemplate = ({
-  inviterName = 'Lucas Smith',
-  inviterEmail = 'lucas@documenso.com',
+  inviterName = 'Ahmed Mert',
+  inviterEmail = 'ahmed@minimaworks.be',
   documentName = 'Open Source Pledge.pdf',
-  signDocumentLink = 'https://documenso.com',
+  signDocumentLink = 'https://minimaworks.be',
   assetBaseUrl = 'http://localhost:3002',
   customBody,
   role,

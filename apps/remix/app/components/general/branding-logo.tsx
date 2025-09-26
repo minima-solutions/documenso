@@ -64,10 +64,10 @@ export const BrandingLogo = ({ ...props }: LogoProps) => {
           <path d="M0 0h368v475H0z" />
         </clipPath>
         <clipPath id="u">
-          <path d="M1511.16.93h106.543V879.44H1511.16Zm0 0" />
+          <path d="M1511.16.93h106.543v878.51H1511.16Zm0 0" />
         </clipPath>
         <clipPath id="w">
-          <path d="M.16.93h106.543V879.44H.16Zm0 0" />
+          <path d="M.16.93h106.543v878.51H.16Zm0 0" />
         </clipPath>
         <clipPath id="v">
           <path d="M0 0h107v880H0z" />
@@ -137,13 +137,13 @@ export const BrandingLogo = ({ ...props }: LogoProps) => {
               <g clipPath="url(#e)">
                 <g clipPath="url(#f)">
                   <path
-                    d="M.02.262H481.62v474.195H.02Zm0 0"
                     style={{
                       stroke: 'none',
                       fillRule: 'nonzero',
-                      fill: '#000',
+                      fill: '#fff',
                       fillOpacity: 1,
                     }}
+                    d="M.02.262h481.6v474.195H.02Zm0 0"
                   />
                 </g>
               </g>
@@ -154,13 +154,13 @@ export const BrandingLogo = ({ ...props }: LogoProps) => {
           <g clipPath="url(#h)" transform="translate(188 983)">
             <g clipPath="url(#i)">
               <path
-                d="M.504.379h294.559V250.07H.502Zm0 0"
                 style={{
                   stroke: 'none',
                   fillRule: 'nonzero',
                   fill: '#86a7a5',
                   fillOpacity: 1,
                 }}
+                d="M.504.379h294.559V250.07H.502Zm0 0"
               />
             </g>
           </g>
@@ -169,13 +169,13 @@ export const BrandingLogo = ({ ...props }: LogoProps) => {
           <g clipPath="url(#k)" transform="translate(661 405)">
             <g clipPath="url(#l)">
               <path
-                d="M.328.258h106.559v827.89H.328Zm0 0"
                 style={{
                   stroke: 'none',
                   fillRule: 'nonzero',
                   fill: '#86a7a5',
                   fillOpacity: 1,
                 }}
+                d="M.328.258h106.559v827.89H.328Zm0 0"
               />
             </g>
           </g>
@@ -184,13 +184,13 @@ export const BrandingLogo = ({ ...props }: LogoProps) => {
           <g clipPath="url(#n)" transform="translate(188)">
             <g clipPath="url(#o)">
               <path
-                d="M.5.934h1124.215v300.418H.5Zm0 0"
                 style={{
                   stroke: 'none',
                   fillRule: 'nonzero',
                   fill: '#86a7a5',
                   fillOpacity: 1,
                 }}
+                d="M.5.934h1124.215v300.418H.5Zm0 0"
               />
             </g>
           </g>
@@ -201,13 +201,13 @@ export const BrandingLogo = ({ ...props }: LogoProps) => {
               <g clipPath="url(#s)">
                 <g clipPath="url(#t)">
                   <path
-                    d="M.98.262h366.301v473.617H.981Zm0 0"
                     style={{
                       stroke: 'none',
                       fillRule: 'nonzero',
-                      fill: '#000',
+                      fill: '#fff',
                       fillOpacity: 1,
                     }}
+                    d="M.98.262h366.301v473.617H.981Zm0 0"
                   />
                 </g>
               </g>
@@ -218,13 +218,13 @@ export const BrandingLogo = ({ ...props }: LogoProps) => {
           <g clipPath="url(#v)" transform="translate(1511)">
             <g clipPath="url(#w)">
               <path
-                d="M.16.93H106.72v878.699H.16Zm0 0"
                 style={{
                   stroke: 'none',
                   fillRule: 'nonzero',
                   fill: '#86a7a5',
                   fillOpacity: 1,
                 }}
+                d="M.16.93h106.56v878.699H.16Zm0 0"
               />
             </g>
           </g>
@@ -235,13 +235,13 @@ export const BrandingLogo = ({ ...props }: LogoProps) => {
               <g clipPath="url(#A)">
                 <g clipPath="url(#B)">
                   <path
-                    d="M.828.262h481.606v474.195H.828Zm0 0"
                     style={{
                       stroke: 'none',
                       fillRule: 'nonzero',
-                      fill: '#000',
+                      fill: '#fff',
                       fillOpacity: 1,
                     }}
+                    d="M.828.262h481.606v474.195H.828Zm0 0"
                   />
                 </g>
               </g>
@@ -254,13 +254,13 @@ export const BrandingLogo = ({ ...props }: LogoProps) => {
               <g clipPath="url(#F)">
                 <g clipPath="url(#G)">
                   <path
-                    d="M.008.379h1824.906V250.07H.008Zm0 0"
                     style={{
                       stroke: 'none',
                       fillRule: 'nonzero',
                       fill: '#86a7a5',
                       fillOpacity: 1,
                     }}
+                    d="M.008.379h1824.906V250.07H.008Zm0 0"
                   />
                 </g>
               </g>
@@ -271,13 +271,13 @@ export const BrandingLogo = ({ ...props }: LogoProps) => {
           <g clipPath="url(#I)" transform="translate(1816)">
             <g clipPath="url(#J)">
               <path
-                d="M.625.934H954.68v300.418H.625Zm0 0"
                 style={{
                   stroke: 'none',
                   fillRule: 'nonzero',
                   fill: '#86a7a5',
                   fillOpacity: 1,
                 }}
+                d="M.625.934H954.68v300.418H.625Zm0 0"
               />
             </g>
           </g>
@@ -288,13 +288,13 @@ export const BrandingLogo = ({ ...props }: LogoProps) => {
               <g clipPath="url(#N)">
                 <g clipPath="url(#O)">
                   <path
-                    d="M.121.64h442.86v473.997H.12Zm0 0"
                     style={{
                       stroke: 'none',
                       fillRule: 'nonzero',
-                      fill: '#000',
+                      fill: '#fff',
                       fillOpacity: 1,
                     }}
+                    d="M.121.64h442.86v473.997H.12Zm0 0"
                   />
                 </g>
               </g>

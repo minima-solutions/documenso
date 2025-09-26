@@ -52,7 +52,7 @@ export default function SupportPage() {
             <h2 className="flex items-center gap-2 text-lg font-bold">
               <BookIcon className="text-muted-foreground h-5 w-5" />
               <Link
-                to="https://docs.documenso.com"
+                to="https://docs.minimaworks.be"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"

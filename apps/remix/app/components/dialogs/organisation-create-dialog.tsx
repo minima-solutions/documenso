@@ -431,7 +431,7 @@ const BillingPlanForm = ({
         </Link>
       </div>
 
-      <div className="mt-6 text-center">
+      {/* <div className="mt-6 text-center">
         <Link
           to="https://documenso.com/pricing"
           className="text-primary hover:text-primary/80 flex items-center justify-center gap-1 text-sm hover:underline"
@@ -440,7 +440,7 @@ const BillingPlanForm = ({
           <Trans>Compare all plans and features in detail</Trans>
           <ExternalLinkIcon className="h-4 w-4" />
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

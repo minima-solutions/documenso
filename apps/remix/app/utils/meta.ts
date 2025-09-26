@@ -19,7 +19,7 @@ export const appMetaTags = (title?: string) => {
     },
     {
       name: 'author',
-      content: 'MINIMA Sign, Inc.',
+      content: 'MINIMA Group',
     },
     {
       name: 'robots',
