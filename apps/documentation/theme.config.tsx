@@ -2,12 +2,12 @@ import type { DocsThemeConfig } from 'nextra-theme-docs';
 import { useConfig } from 'nextra-theme-docs';
 
 const themeConfig: DocsThemeConfig = {
-  logo: <span>Documenso</span>,
+  logo: <span>MINIMA Sign</span>,
   head: function useHead() {
     const config = useConfig<{ title?: string; description?: string }>();
 
-    const title = `${config.frontMatter.title} | Documenso Docs` || 'Documenso Docs';
-    const description = config.frontMatter.description || 'The official Documenso documentation';
+    const title = `${config.frontMatter.title} | MINIMA Sign Docs` || 'MINIMA Sign Docs';
+    const description = config.frontMatter.description || 'The official MINIMA Sign documentation';
 
     return (
       <>
@@ -19,7 +19,7 @@ const themeConfig: DocsThemeConfig = {
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
             !function(){
@@ -34,23 +34,23 @@ const themeConfig: DocsThemeConfig = {
             }();
           `,
           }}
-        />
+        /> */}
       </>
     );
   },
   project: {
-    link: 'https://documen.so/github',
+    link: 'https://minimaworks.be/github',
   },
   chat: {
-    link: 'https://documen.so/discord',
+    link: 'https://minimaworks.be/teams',
   },
-  docsRepositoryBase: 'https://github.com/documenso/documenso/tree/main/apps/documentation',
+  docsRepositoryBase: 'https://github.com/minima-works/documenso/tree/main/apps/documentation',
   footer: {
     text: (
       <span>
         {new Date().getFullYear()} ©{' '}
-        <a href="https://documen.so" target="_blank">
-          Documenso
+        <a href="https://sign.minimaworks.be" target="_blank">
+          MINIMA Sign
         </a>
         .
       </span>
@@ -60,7 +60,7 @@ const themeConfig: DocsThemeConfig = {
   primarySaturation: 48.47,
   useNextSeoProps() {
     return {
-      titleTemplate: '%s | Documenso Docs',
+      titleTemplate: '%s | MINIMA Sign Docs',
     };
   },
 };

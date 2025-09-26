@@ -17,7 +17,7 @@ export const TemplateFooter = ({ isDocument = true }: TemplateFooterProps) => {
           <Trans>
             This document was sent using{' '}
             <Link className="text-[#7AC455]" href="https://documen.so/mail-footer">
-              Documenso.
+              MINIMA Sign.
             </Link>
           </Trans>
         </Text>
@@ -36,9 +36,9 @@ export const TemplateFooter = ({ isDocument = true }: TemplateFooterProps) => {
         </Text>
       ) : (
         <Text className="my-8 text-sm text-slate-400">
-          Documenso, Inc.
+          MINIMA Sign, Inc.
           <br />
-          2261 Market Street, #5211, San Francisco, CA 94114, USA
+          Edward Staintonstraat 52, 3550 Heusden-Zolder
         </Text>
       )}
     </Section>
