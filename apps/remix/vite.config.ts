@@ -21,7 +21,7 @@ export default defineConfig({
     },
   },
   server: {
-    port: 7501,
+    port: 3554,
     strictPort: true,
   },
   plugins: [

@@ -86,7 +86,7 @@ docker-compose --env-file ./.env up -d
 
 This will start the PostgreSQL database and the Documenso application containers.
 
-6. Access the Documenso application by visiting `http://localhost:7501` in your web browser.
+6. Access the Documenso application by visiting `http://localhost:3554` in your web browser.
 
 ## Option 2: Standalone Docker Container
 
@@ -108,12 +108,12 @@ docker pull ghcr.io/documenso/documenso
 
 ```
 docker run -d \
-  -p 7501:7501 \
+  -p 3554:3554 \
   -e NEXTAUTH_SECRET="<your-nextauth-secret>" \
   -e NEXT_PRIVATE_ENCRYPTION_KEY="<your-next-private-encryption-key>" \
   -e NEXT_PRIVATE_ENCRYPTION_SECONDARY_KEY="<your-next-private-encryption-secondary-key>" \
   -e NEXT_PUBLIC_WEBAPP_URL="<your-next-public-webapp-url>" \
-  -e NEXT_PRIVATE_INTERNAL_WEBAPP_URL="http://localhost:7501" \
+  -e NEXT_PRIVATE_INTERNAL_WEBAPP_URL="http://localhost:3554" \
   -e NEXT_PRIVATE_DATABASE_URL="<your-next-private-database-url>" \
   -e NEXT_PRIVATE_DIRECT_DATABASE_URL="<your-next-private-database-url>" \
   -e NEXT_PRIVATE_SMTP_TRANSPORT="<your-next-private-smtp-transport>" \
@@ -176,10 +176,10 @@ Check the status of your Documenso instance:
 
 ```bash
 # Basic health check (database + certificate)
-curl http://localhost:7501/api/health
+curl http://localhost:3554/api/health
 
 # Detailed certificate status
-curl http://localhost:7501/api/certificate-status
+curl http://localhost:3554/api/certificate-status
 ```
 
 The health endpoint will show:
@@ -204,7 +204,7 @@ Here's a markdown table documenting all the provided environment variables:
 
 | Variable                                     | Description                                                                                         |
 | -------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| `PORT`                                       | The port to run the Documenso application on, defaults to `7501`.                                   |
+| `PORT`                                       | The port to run the Documenso application on, defaults to `3554`.                                   |
 | `NEXTAUTH_SECRET`                            | The secret key used by NextAuth.js for encryption and signing.                                      |
 | `NEXT_PRIVATE_ENCRYPTION_KEY`                | The primary encryption key for symmetric encryption and decryption (at least 32 characters).        |
 | `NEXT_PRIVATE_ENCRYPTION_SECONDARY_KEY`      | The secondary encryption key for symmetric encryption and decryption (at least 32 characters).      |

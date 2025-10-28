@@ -4,11 +4,11 @@ tasks:
       npm run dx:up &&
       cp .env.example .env &&
       set -a; source .env &&
-      export NEXT_PUBLIC_WEBAPP_URL="$(gp url 7501)" &&
+      export NEXT_PUBLIC_WEBAPP_URL="$(gp url 3554)" &&
     command: npm run d
 
 ports:
-  - port: 7501
+  - port: 3554
     visibility: public
     onOpen: open-preview
   - port: 3001

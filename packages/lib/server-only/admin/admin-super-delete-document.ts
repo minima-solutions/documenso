@@ -76,7 +76,7 @@ export const adminSuperDeleteDocument = async ({
           return;
         }
 
-        const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:7501';
+        const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:3554';
         const template = createElement(DocumentCancelTemplate, {
           documentName: envelope.title,
           inviterName: user.name || undefined,

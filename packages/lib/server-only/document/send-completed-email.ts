@@ -96,7 +96,7 @@ export const sendCompletedEmail = async ({ id, requestMetadata }: SendDocumentOp
     }),
   );
 
-  const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:7501';
+  const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:3554';
 
   let documentOwnerDownloadLink = `${NEXT_PUBLIC_WEBAPP_URL()}${formatDocumentsPath(
     envelope.team?.url,

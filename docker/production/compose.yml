@@ -23,7 +23,7 @@ services:
       database:
         condition: service_healthy
     environment:
-      - PORT=${PORT:-7501}
+      - PORT=${PORT:-3554}
       - NEXTAUTH_SECRET=${NEXTAUTH_SECRET:?err}
       - NEXT_PRIVATE_ENCRYPTION_KEY=${NEXT_PRIVATE_ENCRYPTION_KEY:?err}
       - NEXT_PRIVATE_ENCRYPTION_SECONDARY_KEY=${NEXT_PRIVATE_ENCRYPTION_SECONDARY_KEY:?err}
@@ -64,7 +64,7 @@ services:
       - NEXT_PRIVATE_SIGNING_LOCAL_FILE_PATH=${NEXT_PRIVATE_SIGNING_LOCAL_FILE_PATH:-/opt/documenso/cert.p12}
       - NEXT_PRIVATE_SIGNING_PASSPHRASE=${NEXT_PRIVATE_SIGNING_PASSPHRASE}
     ports:
-      - ${PORT:-7501}:${PORT:-7501}
+      - ${PORT:-3554}:${PORT:-3554}
     volumes:
       - /Users/r1me/Development/MINIMA/signing/certificate.p12:/opt/documenso/cert.p12
 volumes:

@@ -88,7 +88,7 @@ test('[TEAMS]: can create a document inside a document folder', async ({ page })
     path.join(__dirname, '../../../assets/documenso-supporter-pledge.pdf'),
   );
 
-  await page.waitForTimeout(7501);
+  await page.waitForTimeout(3554);
 
   await expect(page.getByText('documenso-supporter-pledge.pdf')).toBeVisible();
 
@@ -379,7 +379,7 @@ test('[TEAMS]: can create a template inside a template folder', async ({ page })
     .nth(0)
     .setInputFiles(path.join(__dirname, '../../../assets/documenso-supporter-pledge.pdf'));
 
-  await page.waitForTimeout(7501);
+  await page.waitForTimeout(3554);
 
   // Expect redirect.
   await expect(page.getByText('documenso-supporter-pledge.pdf')).toBeVisible();
@@ -849,7 +849,7 @@ test('[TEAMS]: documents inherit folder visibility', async ({ page }) => {
     path.join(__dirname, '../../../assets/documenso-supporter-pledge.pdf'),
   );
 
-  await page.waitForTimeout(7501);
+  await page.waitForTimeout(3554);
 
   await expect(page.getByText('documenso-supporter-pledge.pdf')).toBeVisible();
 
@@ -969,11 +969,11 @@ test('[TEAMS]: team member can move documents to everyone folder', async ({ page
   await page.getByRole('button', { name: 'Everyone Folder' }).click();
   await page.getByRole('button', { name: 'Move' }).click();
 
-  await page.waitForTimeout(7501);
+  await page.waitForTimeout(3554);
   await expect(page.getByText('[TEST] Everyone Document')).toBeVisible();
 
   await page.goto(`/t/${team.url}/documents`);
-  await page.waitForTimeout(7501);
+  await page.waitForTimeout(3554);
 
   await expect(page.getByText('[TEST] Everyone Document')).not.toBeVisible();
 });

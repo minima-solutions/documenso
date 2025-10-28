@@ -13,7 +13,7 @@ export type UserProfileAhmedProps = {
 };
 
 export const UserProfileAhmed = ({ className, rows = 2 }: UserProfileAhmedProps) => {
-  const baseUrl = new URL(NEXT_PUBLIC_WEBAPP_URL() ?? 'http://localhost:7501');
+  const baseUrl = new URL(NEXT_PUBLIC_WEBAPP_URL() ?? 'http://localhost:3554');
 
   return (
     <div
